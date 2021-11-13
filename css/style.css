@@ -1,0 +1,75 @@
+#hello-text {
+    color: orange;
+    background-color: brown;
+    margin-top: 50px;
+    text-align: center;
+}
+
+/*this is for paragraph*/
+
+p {
+    color: indigo;
+    font-size: 50px;
+}
+
+/* css selectors */
+
+/* type selector */
+
+h2 {
+    color: red;
+    border: 10px solid blue;
+    padding: 20px;
+    text-align: left;
+    margin: 50px;
+}
+
+/* id selector */
+
+#ijse-text {
+    color: crimson;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+/* class selector */
+
+.test {
+    color: darkorange;
+    font-size: 35px;
+}
+
+/* universal selector / global selector */
+
+* {
+    font-style: italic;
+}
+
+/* attribute selector */
+
+[class="test2"] {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+/* : :: psudo class / psudo elements */
+
+ul li:first-child {
+    color: green;
+}
+
+ul li:nth-child(3) {
+    color: blue;
+}
+
+ul li:last-child {
+    font-size: 20px;
+}
+
+h4:hover {
+    /* font-size: 40px; */
+    color: chocolate;
+}
+
+h4::first-letter {
+    color: deeppink;
+}
